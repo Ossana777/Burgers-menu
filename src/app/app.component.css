@@ -1,3 +1,5 @@
+
+
 .main {
     overflow: hidden;
     background-image: url("../assets/images/main_bg.png");
@@ -242,4 +244,45 @@ color:white
 .rights {
     font-size: 16px;
 line-height: 20px;
+}
+@media (max-width: 1024px) {
+    .why-items, .products-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+   .why-item{
+    max-width: 312px;
+   }
+   .products-item {
+    max-width: 300px;
+   }
+   .menu-item,.menu {
+    margin: 0px 15px;
+   }
+   .main-image {
+    width: 100%;
+    left: 20%; 
+    top: 0;
+   }
+   .main-info {
+    width: 52%;
+    
+   }
+   .main-title {
+    font-size: 90px;
+   }
+   .order>.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+    .order-form {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .order-image {position: relative;}
 }

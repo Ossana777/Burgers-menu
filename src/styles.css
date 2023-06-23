@@ -18,6 +18,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    min-width: 300px;
 }
 .button {
 background: linear-gradient(95.61deg, #DA8023 0%, #E2B438 100%);
@@ -50,4 +51,9 @@ line-height: 80px;
 text-align: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+}
+@media (max-width: 1024px) {
+.common-title {
+    font-size: 58px;
+}
 }

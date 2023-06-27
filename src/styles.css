@@ -55,5 +55,9 @@ text-transform: uppercase;
 @media (max-width: 1024px) {
 .common-title {
     font-size: 58px;
-}
+}}
+@media (max-width: 768px) {
+    .common-title {
+        font-size: 42px;
+    }
 }
